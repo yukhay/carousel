@@ -27,10 +27,10 @@ img {vertical-align: middle;}
   user-select: none;
 }
 
-/* Hide the buttons by default */
+/* Hide the buttons by default
 .prev, .next {
     display: none;
-  }
+  } */
 
 /* Position the "next button" to the right */
 .next {
@@ -41,7 +41,7 @@ img {vertical-align: middle;}
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
-  display: show;
+  /* display: block; */
 }
 
 /* Caption text */
